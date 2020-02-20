@@ -1,0 +1,8 @@
+{
+  "name": "hello-example",
+  "description": "Very base example of karcass template",
+  "main": "index.js",
+  "dependencies": {
+    "@karcass/template-reducer": "0.0.21"
+  }
+}
