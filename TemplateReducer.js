@@ -15,7 +15,7 @@ class TemplateReducer extends reducer.AbstractTemplateReducer {
         ]
     }
     async finish() {
-        console.log(`Application installed, execute cd ${this.directoryName} && node index.js to launch it.`)
+        console.log(`Application installed, to launch it execute\n  cd ${this.directoryName} && node index.js`)
     }
 }
 module.exports = { TemplateReducer }
