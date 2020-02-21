@@ -17,5 +17,11 @@ class TemplateReducer extends reducer.AbstractTemplateReducer {
     async finish() {
         console.log(`Application installed, to launch it execute\n  cd ${this.directoryName} && node index.js`)
     }
+    getTestConfigSet() {
+        return [
+            { name: 'testname1' },
+            { name: 'testname2' },
+        ]
+    }
 }
 module.exports = { TemplateReducer }
